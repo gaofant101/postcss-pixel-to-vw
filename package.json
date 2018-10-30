@@ -1,0 +1,38 @@
+{
+    "name": "postcss-pixel-to-vw",
+    "version": "1.0.0",
+    "description": "Parse CSS converts unit px to vw, you can add exceptions by annotation",
+    "keywords": [
+        "postcss",
+        "css",
+        "postcss-plugin",
+        "postcss-pixel-to-vw"
+    ],
+    "author": "fan@@@ < evanhunt.g@gmail.com>",
+    "license": "MIT",
+    "repository": "neilgao000/postcss-pixel-to-vw",
+    "bugs": {
+        "url": "https://github.com/neilgao000/postcss-pixel-to-vw/issues"
+    },
+    "homepage": "https://github.com/neilgao000/postcss-pixel-to-vw",
+    "dependencies": {
+        "postcss": "^6.0.16"
+    },
+    "devDependencies": {
+        "eslint": "^4.18.2",
+        "eslint-config-postcss": "^2.0.2",
+        "jest": "^22.4.2"
+    },
+    "scripts": {
+        "test": "jest && eslint *.js"
+    },
+    "eslintConfig": {
+        "extends": "eslint-config-postcss/es5",
+        "env": {
+            "jest": true
+        }
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}
